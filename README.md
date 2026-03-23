@@ -28,6 +28,8 @@ De forma paralela, se avanzó en la **definición y estructuración del frontend
 ### Backend
 - **HU-MCI - Migración del Backend de Español a Inglés**  
 - **HU-doc - Documentación técnica de microservicios backend**
+
+
 🔗 [Ver todos los Issues](../../issues)
 
 ### Frontend
