@@ -26,8 +26,9 @@ De forma paralela, se avanzó en la **definición y estructuración del frontend
 ## Historias de Usuario (HU)
 
 ### Backend
-- **HU-MCI - Traducción de Microservicios a Inglés**  
-  *Migración de código y estandarización en inglés*
+- **HU-MCI - Migración del Backend de Español a Inglés**  
+- **HU-doc - Documentación técnica de microservicios backend**
+🔗 [Ver todos los Issues](../../issues)
 
 ### Frontend
 Se definieron las historias de usuario correspondientes al frontend del sistema FarmaExpres:
