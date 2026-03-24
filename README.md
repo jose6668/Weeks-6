@@ -69,6 +69,15 @@ Adicionalmente, se busca estructurar el frontend del sistema basado en historias
 
 ## ¿Qué se hizo?
 
+- Se implementaron los **4 HU correspondientes al backend** dentro de la planificación de la Week 6.
+- Se realizó la documentación de los HU backend en el repositorio correspondiente.
+- Se trabajó en la actualización y estandarización de los microservicios del backend.
+- Se documentaron los microservicios `auth-service` e `inventory-service` mediante sus respectivos archivos `README.md`.
+- Se implementó la migración de nombres y componentes del backend de español a inglés para mejorar la consistencia técnica del proyecto.
+- Se desarrollaron cambios funcionales en `auth-service`, incluyendo gestión de usuarios, actualización de roles y nuevos permisos.
+- Se incorporó el nuevo rol **auditor** y se ajustaron permisos en `auth-service` e `inventory-service`.
+- Se renombró el rol **empleado** a **farmacéutico** para alinearlo con el dominio del sistema.
+- Se habilitaron permisos de consulta específicos para el rol auditor en el microservicio de inventario.
 
 
 - Se estructuró el frontend con enfoque modular por dominio, separando componentes, páginas y servicios.
@@ -89,6 +98,9 @@ Adicionalmente, se busca estructurar el frontend del sistema basado en historias
 
 ## ¿Qué no se logró?
 
+- Aún quedan pendientes validaciones completas de integración entre servicios después de algunos cambios de roles y permisos.
+- Queda pendiente seguir fortaleciendo la documentación técnica de otros microservicios que no hicieron parte directa de los 4 HU implementados.
+
 - No se implementó aún la **HU-FE-02** (autenticación de inicio de sesión) como flujo formal completo en frontend.
 - No se completaron las historias de usuario de módulos pendientes:
   - **HU-FE-07**: Movimientos (historial).
@@ -99,6 +111,11 @@ Adicionalmente, se busca estructurar el frontend del sistema basado en historias
 - Para el alcance de esta semana, **HU-FE-09** y **HU-FE-10** quedan programadas como pendientes para una fase posterior.
 
 ## ¿Qué se va a hacer?
+
+- Finalizar las pruebas de integración y validación funcional de los HU implementados en backend.
+- Completar la revisión y ajuste de la documentación técnica restante del backend.
+- Dar seguimiento a la separación y consolidación de microservicios dentro de la arquitectura del proyecto.
+- Corregir posibles inconsistencias detectadas en pruebas posteriores relacionadas con autenticación, autorización y consultas de inventario.
 
 - Implementar la **HU-FE-02 (Autenticación - Inicio de Sesión)**:
   - Construir el flujo completo de login.
