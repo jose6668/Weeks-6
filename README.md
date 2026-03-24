@@ -67,8 +67,47 @@ Adicionalmente, se busca estructurar el frontend del sistema basado en historias
 
 ## ¿Qué se hizo?
 
+- Se estructuró el frontend con enfoque modular por dominio, separando componentes, páginas y servicios.
+- Se realizó la maquetación base de la aplicación (layout) por módulos y por roles.
+- Se diseñó y publicó la demo visual del sistema en Canva para referencia funcional/UI.
+- Se implementaron y documentaron las siguientes historias de usuario frontend:
+  - **HU-FE-01**: Gestión de usuarios (crear, listar, editar y activar/desactivar).
+  - **HU-FE-03**: Cambio de contraseña de usuarios desde administración.
+  - **HU-FE-04**: Registro de medicamentos.
+  - **HU-FE-05**: Actualización de medicamentos.
+  - **HU-FE-06**: Eliminación lógica de medicamentos.
+- Se consolidó documentación QA por HU en la carpeta `doc/` con evidencias visuales en `doc/images/`.
+- Se alineó la base visual y funcional del frontend con el documento de layout del sistema.
+
+### Enlaces del DEMO
+
+- Demo visual del sistema (Canva): [FarmaExpres Demo](https://temenico.my.canva.site/farmaexpres)
 
 ## ¿Qué no se logró?
 
+- No se implementó aún la **HU-FE-02** (autenticación de inicio de sesión) como flujo formal completo en frontend.
+- No se completaron las historias de usuario de módulos pendientes:
+  - **HU-FE-07**: Movimientos (historial).
+  - **HU-FE-08**: Inventario (control inteligente de stock).
+  - **HU-FE-09**: Inventario (productos agotados).
+  - **HU-FE-10**: Auditoría (gestión de movimientos).
+- En algunos módulos todavía queda pendiente la validación integral de permisos por rol una vez se cierre completamente el flujo de autenticación.
+- Para el alcance de esta semana, **HU-FE-09** y **HU-FE-10** quedan programadas como pendientes para una fase posterior.
 
 ## ¿Qué se va a hacer?
+
+- Implementar la **HU-FE-02 (Autenticación - Inicio de Sesión)**:
+  - Construir el flujo completo de login.
+  - Gestionar sesión/token de acceso.
+  - Aplicar control de acceso por rol desde el frontend.
+- Implementar la **HU-FE-07 (Movimientos - Historial)**:
+  - Mostrar historial de entradas y salidas.
+  - Incorporar filtros por tipo, fecha y usuario.
+  - Presentar trazabilidad clara de los registros.
+- Implementar la **HU-FE-08 (Inventario - Control Inteligente de Stock)**:
+  - Visualizar estado de stock por niveles.
+  - Identificar productos críticos.
+  - Mostrar apoyo para priorización de reposición.
+- **HU-FE-09** y **HU-FE-10** se mantienen fuera del alcance de esta semana y se ejecutarán en la siguiente etapa.
+- Mantener el esquema de trabajo por HU: implementación funcional, validaciones, manejo de errores y documentación QA con evidencias por cada entrega.
+- Asegurar consistencia entre lo definido en layout, las reglas funcionales del frontend y los endpoints disponibles en backend.
