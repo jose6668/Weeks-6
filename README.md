@@ -28,6 +28,8 @@ De forma paralela, se avanzó en la **definición y estructuración del frontend
 ### Backend
 - **HU-MCI - Migración del Backend de Español a Inglés**  
 - **HU-doc - Documentación técnica de microservicios backend**
+- HU-BE-11 Historia de Usuario
+- HU-BE-12 Agregar campo stock mínimo al producto
 
 
 🔗 [Ver todos los Issues](../../issues)
@@ -66,6 +68,8 @@ Adicionalmente, se busca estructurar el frontend del sistema basado en historias
 ---
 
 ## ¿Qué se hizo?
+
+
 
 - Se estructuró el frontend con enfoque modular por dominio, separando componentes, páginas y servicios.
 - Se realizó la maquetación base de la aplicación (layout) por módulos y por roles.
